@@ -2,6 +2,40 @@
 /*    background-position: -2px 0px;*/
 }
 
+span.none, .feed-links, .divsWithHeaders  h2, .icon.buildDataIcon {
+    display:none;
+}
+
+span[class*="build-status-icon_personal"] +* +* {
+    content: "PERSONAL";
+    background-color: #EEF4FC;
+}
+
+#userPanel .search {
+    display:none;
+}
+
+.footerMainContainer {
+    display:none;
+}
+
+.tests-group .group-name {
+    border-top:none;
+}
+
+.failureStatusBlock {
+    border:none;
+}
+
+table.dark th {
+    padding-bottom: 5px;
+    color: #555;
+    text-align: left;
+    font-weight: normal;
+    background-color:white;
+    border-bottom: 1px solid #ccc
+}
+
 .inheritedParam {
     font-style:normal;
 }
@@ -12,7 +46,7 @@ table.borderBottom tr:hover {
 
 #tabsContainer .tabs li {
 		font-size: 100%;
-    font-weight: normal;
+        font-weight: normal;
 }
 
 table.borderBottom td {
@@ -34,7 +68,7 @@ table.borderBottom td {
 .bt-separator {
     display:none;
     border: none;
-    height: 5px;
+        height: 5px;
     margin-left: 2em;
 }
 
@@ -44,6 +78,7 @@ table.borderBottom td {
 
 .build > .projectHeader {
     background: #F9FAFB;
+    /*background: white;*/
 }
 
 .progress {
@@ -57,4 +92,3 @@ table.borderBottom td {
 .progressInnerFailed {
     background-color: #F4897B;
 }
-         
