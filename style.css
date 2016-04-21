@@ -138,3 +138,29 @@ table.overviewTypeTable td {
 table.overviewTypeTable tr:hover {
     background-color: #FFFFe9;
 }
+
+body.pageBG {
+  background: #FAFBFC;
+}
+
+body.pageBG {
+  background: #FFFFFD;
+}
+
+#tabsContainer .tabs li.selected {
+    padding-bottom:0;
+    border-bottom: 2px solid #1564c2;
+}
+
+.simpleTabs .tabs li.selected {
+	margin:2px 0 0;
+    border:none;
+    border-bottom: 1px solid #1564c2;
+    background-image: none;
+}
+
+.simpleTabs .tabs li {
+    border:none;
+    margin: 1px 0 0;
+    padding-bottom:1px;
+}
