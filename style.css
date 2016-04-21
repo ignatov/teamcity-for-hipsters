@@ -135,3 +135,6 @@ table.overviewTypeTable td {
     padding: 0.3em 0;
 }
 
+table.overviewTypeTable tr:hover {
+    background-color: #FFFFe9;
+}
