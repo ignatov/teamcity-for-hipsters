@@ -94,10 +94,44 @@ table.overviewTypeTable td.buildNumber {
 }
 
 .progressInnerSuccessful {
-    background-color: #399E4B;
+    background-color: #4da400;
 }
                                        
 .progressInnerFailed {
-    background-color: #F4897B;
+    background-color: #C10000;
 }
-         
+
+.progressInner {
+    height: 1px;
+    margin-top:19px;
+}
+
+.fixedWidth {
+    padding: 0 10px;
+}
+
+.stopBuild > span > a {
+    color: #888;    
+}
+
+.tableCaption {
+    margin: 0 1em;
+}
+
+td.branch {
+    width: 1em;
+}
+
+td.buildNumber {
+    color: #888;
+    padding-right:0;
+}
+
+td.buildNumber.detachedChanges > span {
+    background-color: #EEF4FC; /* another color? */
+}
+
+table.overviewTypeTable td {
+    padding: 0.3em 0;
+}
+
