@@ -60,6 +60,14 @@ table.borderBottom td {
 #footer .footerMainContainer {
 	border: none;
 }
+
+table.overviewTypeTable td.status {
+    padding-right:0;
+}
+
+table.overviewTypeTable td.buildNumber {
+    padding-left:0;
+}
     
 .tableCaption {
     border: none;
@@ -92,3 +100,4 @@ table.borderBottom td {
 .progressInnerFailed {
     background-color: #F4897B;
 }
+         
