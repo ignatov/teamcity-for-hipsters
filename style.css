@@ -1,0 +1,60 @@
+.toggle {
+/*    background-position: -2px 0px;*/
+}
+
+.inheritedParam {
+    font-style:normal;
+}
+
+table.borderBottom tr:hover {
+    background-color: #FFFFE3;
+}
+
+#tabsContainer .tabs li {
+		font-size: 100%;
+    font-weight: normal;
+}
+
+table.borderBottom td {
+    border: none;
+}
+
+.divsWithHeaders > div {
+    border: none;
+}
+
+#footer .footerMainContainer {
+	border: none;
+}
+    
+.tableCaption {
+    border: none;
+}
+
+.bt-separator {
+    display:none;
+    border: none;
+    height: 5px;
+    margin-left: 2em;
+}
+
+.joinedChangeTable > tbody > tr > td {
+    border: none;
+}
+
+.build > .projectHeader {
+    background: #F9FAFB;
+}
+
+.progress {
+    background-color: #F9FAFB;
+}
+
+.progressInnerSuccessful {
+    background-color: #399E4B;
+}
+                                       
+.progressInnerFailed {
+    background-color: #F4897B;
+}
+         
