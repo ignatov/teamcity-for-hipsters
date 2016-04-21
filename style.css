@@ -76,7 +76,7 @@ table.overviewTypeTable td.buildNumber {
 .bt-separator {
     display:none;
     border: none;
-        height: 5px;
+    height: 5px;
     margin-left: 2em;
 }
 
@@ -90,7 +90,15 @@ table.overviewTypeTable td.buildNumber {
 }
 
 .progress {
-    background-color: #F9FAFB;
+    height:20px;
+    border-bottom: 1px solid #E1E1E1;
+    background-color:transparent;
+    text-align:right;
+    float:right;
+}
+
+.progressOvertime {
+    display:none !important;
 }
 
 .progressInnerSuccessful {
@@ -103,7 +111,7 @@ table.overviewTypeTable td.buildNumber {
 
 .progressInner {
     height: 1px;
-    margin-top:19px;
+    margin-top:20px;
 }
 
 .fixedWidth {
@@ -137,10 +145,6 @@ table.overviewTypeTable td {
 
 table.overviewTypeTable tr:hover {
     background-color: #FFFFe9;
-}
-
-body.pageBG {
-  background: #FAFBFC;
 }
 
 body.pageBG {
