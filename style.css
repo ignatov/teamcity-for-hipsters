@@ -6,13 +6,17 @@ span.none, .feed-links, .divsWithHeaders  h2, .icon.buildDataIcon {
     display:none;
 }
 
-span[class*="build-status-icon_personal"] +* +* {
+span[class*="build-status-icon_personal"] +* +* a {
     content: "PERSONAL";
-    background-color: #EEF4FC;
+    color: #888
 }
 
-span[class*="build-status-icon_failed"] +* +* {
+span[class*="buildType-icon_failing"] +* span {
 	background-color: #FFF6FF;
+}
+
+span.buildType-icon {
+    display:none;
 }
 
 .runnerFormTable th, .runnerFormTable td {
@@ -122,6 +126,15 @@ table.overviewTypeTable td.buildNumber {
     margin-top:20px;
 }
 
+
+.tableCaption table.runTable td.runningStatus {
+    padding-right:1.78em;
+}
+
+td.pendingMessage {
+    width:10em !important;
+}
+
 .fixedWidth {
     padding: 0 10px;
 }
@@ -145,6 +158,11 @@ td.buildNumber {
 
 td.buildNumber.detachedChanges > span {
     background-color: #EEF4FC; /* another color? */
+    display:none;
+}
+
+span.runningStatus > img {
+    display:none !important;
 }
 
 table.overviewTypeTable td {
