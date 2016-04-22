@@ -15,6 +15,10 @@ span[class*="build-status-icon_failed"] +* +* {
 	background-color: #FFF6FF;
 }
 
+.runnerFormTable th, .runnerFormTable td {
+    border-top:none;
+}
+
 #userPanel .search {
     display:none;
 }
