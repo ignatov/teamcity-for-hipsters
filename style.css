@@ -11,6 +11,10 @@ span[class*="build-status-icon_personal"] +* +* {
     background-color: #EEF4FC;
 }
 
+span[class*="build-status-icon_failed"] +* +* {
+	background-color: #FFF6FF;
+}
+
 #userPanel .search {
     display:none;
 }
