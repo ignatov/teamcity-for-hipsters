@@ -15,8 +15,29 @@ span[class*="buildType-icon_failing"] +* span {
 	background-color: #FFF6FF;
 }
 
+.statusTable .progress {
+    background:transparent;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+}
+
 span.buildType-icon {
     display:none;
+}
+
+span.pc .toggle {
+ 	background-image:none;
+    padding-bottom:1px;
+    width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 6px solid #ccc;
+}
+
+span.pc .toggle:hover{
+	border-top: 6px solid #1564c2;
 }
 
 .runnerFormTable th, .runnerFormTable td {
@@ -35,8 +56,9 @@ span.buildType-icon {
     border-top:none;
 }
 
-.failureStatusBlock {
+.failureStatusBlock, .runningBuildStatus {
     border:none;
+    padding:1px;
 }
 
 table.dark th {
@@ -128,7 +150,7 @@ table.overviewTypeTable td.buildNumber {
 
 
 .tableCaption table.runTable td.runningStatus {
-    padding-right:1.78em;
+    padding-right:2.2em;
 }
 
 td.pendingMessage {
@@ -177,8 +199,8 @@ body.pageBG {
   background: #FFFFFD;
 }
 
-#tabsContainer .tabs li.selected {
-    padding-bottom:0;
+#tabsContainer .tabs li.selected, #userPanel .info.selected {
+    padding-bottom:1px;
     border-bottom: 2px solid #1564c2;
 }
 
