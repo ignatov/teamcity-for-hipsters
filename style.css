@@ -1,64 +1,68 @@
-.toggle {
-/*    background-position: -2px 0px;*/
+a {
+    color: #007ee5;
 }
 
-span.none, .feed-links, .divsWithHeaders  h2, .icon.buildDataIcon {
-    display:none;
+body, .tableCaption a.buildTypeName, .projectHeaderTable a, .projectHeaderTable a:hover, .projectHeaderTable a:visited {
+    color: #47525d;
 }
 
-span[class*="build-status-icon_personal"] +* +* a {
+span.none, .feed-links, .divsWithHeaders h2, .icon.buildDataIcon {
+    display: none;
+}
+
+span[class*="build-status-icon_personal"] + * + * a {
     content: "PERSONAL";
     color: #888
 }
 
-span[class*="buildType-icon_failing"] +* span {
-	background-color: #FFF6FF;
+span[class*="buildType-icon_failing"] + * span {
+    background-color: #FFF6FF;
 }
 
 .statusTable .progress {
-    background:transparent;
-    border-top:none;
-    border-right:none;
-    border-left:none;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 
 span.buildType-icon {
-    display:none;
+    display: none;
 }
 
 span.pc .toggle {
- 	background-image:none;
-    padding-bottom:1px;
+    background-image: none;
+    padding-bottom: 1px;
     width: 0;
-	height: 0;
-	border-left: 4px solid transparent;
-	border-right: 4px solid transparent;
-	border-top: 6px solid #ccc;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #ccc;
 }
 
-span.pc .toggle:hover{
-	border-top: 6px solid #1564c2;
+span.pc .toggle:hover {
+    border-top: 6px solid #007ee5;
 }
 
 .runnerFormTable th, .runnerFormTable td {
-    border-top:none;
+    border-top: none;
 }
 
 #userPanel .search {
-    display:none;
+    display: none;
 }
 
 .footerMainContainer {
-    display:none;
+    display: none;
 }
 
 .tests-group .group-name {
-    border-top:none;
+    border-top: none;
 }
 
 .failureStatusBlock, .runningBuildStatus {
-    border:none;
-    padding:1px;
+    border: none;
+    padding: 1px;
 }
 
 table.dark th {
@@ -66,12 +70,12 @@ table.dark th {
     color: #555;
     text-align: left;
     font-weight: normal;
-    background-color:white;
+    background-color: white;
     border-bottom: 1px solid #ccc
 }
 
 .inheritedParam {
-    font-style:normal;
+    font-style: normal;
 }
 
 table.borderBottom tr:hover {
@@ -79,8 +83,8 @@ table.borderBottom tr:hover {
 }
 
 #tabsContainer .tabs li {
-		font-size: 100%;
-        font-weight: normal;
+    font-size: 100%;
+    font-weight: normal;
 }
 
 table.borderBottom td {
@@ -92,23 +96,23 @@ table.borderBottom td {
 }
 
 #footer .footerMainContainer {
-	border: none;
+    border: none;
 }
 
 table.overviewTypeTable td.status {
-    padding-right:0;
+    padding-right: 0;
 }
 
 table.overviewTypeTable td.buildNumber {
-    padding-left:0;
+    padding-left: 0;
 }
-    
+
 .tableCaption {
     border: none;
 }
 
 .bt-separator {
-    display:none;
+    display: none;
     border: none;
     height: 5px;
     margin-left: 2em;
@@ -124,37 +128,36 @@ table.overviewTypeTable td.buildNumber {
 }
 
 .progress {
-    height:20px;
+    height: 20px;
     border-bottom: 1px solid #E1E1E1;
-    background-color:transparent;
-    text-align:right;
-    float:right;
+    background-color: transparent;
+    text-align: right;
+    float: right;
 }
 
 .progressOvertime {
-    display:none !important;
+    display: none !important;
 }
 
 .progressInnerSuccessful {
     background-color: #4da400;
 }
-                                       
+
 .progressInnerFailed {
     background-color: #C10000;
 }
 
 .progressInner {
     height: 1px;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
-
 .tableCaption table.runTable td.runningStatus {
-    padding-right:2.2em;
+    padding-right: 2.2em;
 }
 
 td.pendingMessage {
-    width:10em !important;
+    width: 10em !important;
 }
 
 .fixedWidth {
@@ -162,7 +165,7 @@ td.pendingMessage {
 }
 
 .stopBuild > span > a {
-    color: #888;    
+    color: #888;
 }
 
 .tableCaption {
@@ -175,16 +178,16 @@ td.branch {
 
 td.buildNumber {
     color: #888;
-    padding-right:0;
+    padding-right: 0;
 }
 
 td.buildNumber.detachedChanges > span {
     background-color: #EEF4FC; /* another color? */
-    display:none;
+    display: none;
 }
 
 span.runningStatus > img {
-    display:none !important;
+    display: none !important;
 }
 
 table.overviewTypeTable td {
@@ -196,23 +199,23 @@ table.overviewTypeTable tr:hover {
 }
 
 body.pageBG {
-  background: #FFFFFD;
+    background: #FFFFFD;
 }
 
 #tabsContainer .tabs li.selected, #userPanel .info.selected {
-    padding-bottom:1px;
-    border-bottom: 2px solid #1564c2;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #007ee5;
 }
 
 .simpleTabs .tabs li.selected {
-	margin:2px 0 0;
-    border:none;
-    border-bottom: 1px solid #1564c2;
+    margin: 2px 0 0;
+    border: none;
+    border-bottom: 1px solid #007ee5;
     background-image: none;
 }
 
 .simpleTabs .tabs li {
-    border:none;
+    border: none;
     margin: 1px 0 0;
-    padding-bottom:1px;
+    padding-bottom: 1px;
 }
