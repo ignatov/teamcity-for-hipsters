@@ -208,7 +208,7 @@ table.overviewTypeTable tr:hover {
     background-color: #FFFFe9;
 }
 
-body.pageBG {
+body.pageBG, body.pageBG:before {
     background: #FFFFFD;
 }
 
