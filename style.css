@@ -32,16 +32,26 @@ span.buildType-icon {
 
 span.pc .toggle {
     background-image: none;
+    padding-top: -5px;
     padding-bottom: 1px;
     width: 0;
     height: 0;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
     border-top: 6px solid #ccc;
+    margin-bottom: 2px;
 }
 
 span.pc .toggle:hover {
+    background-image: none;
+    padding-top: -5px;
+    padding-bottom: 1px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
     border-top: 6px solid #007ee5;
+    margin-bottom: 2px;
 }
 
 .runnerFormTable th, .runnerFormTable td {
