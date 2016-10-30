@@ -1,9 +1,9 @@
 a, a:hover {
-    color: #007ee5;
+    color: #0070e0;
 }
 
 body, .tableCaption a.buildTypeName, .projectHeaderTable a, .projectHeaderTable a:hover, .projectHeaderTable a:visited {
-    color: #47525d;
+    color: #1b2733;
 }
 
 span.none, .feed-links, .divsWithHeaders h2, .icon.buildDataIcon {
@@ -228,4 +228,10 @@ body.pageBG, body.pageBG:before {
     border: none;
     margin: 1px 0 0;
     padding-bottom: 1px;
+    box-shadow:none !important;
+    background:none  !important;
+}
+
+.headBG {
+    border:none;
 }
