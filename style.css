@@ -3,12 +3,18 @@ a, a:hover {
 }
 
 #restPageTitle {
-    font-size:14px;
-    font-weight:700;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 body, .tableCaption a.buildTypeName, .projectHeaderTable a, .projectHeaderTable a:hover, .projectHeaderTable a:visited {
     color: #1b2733;
+    /*font-weight:200;*/
+}
+
+.package {
+    font-weight: inherit !important;
+    font-family: inherit !important;
 }
 
 span.none, .feed-links, .divsWithHeaders h2, .icon.buildDataIcon {
