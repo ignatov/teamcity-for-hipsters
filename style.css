@@ -35,7 +35,7 @@ span.buildType-icon {
     display: none;
 }
 
-span.pc .toggle {
+span.pc .toggle, #restPageTitle .icon {
     background-image: none;
     padding-top: -5px;
     padding-bottom: 1px;
@@ -47,7 +47,7 @@ span.pc .toggle {
     margin-bottom: 2px;
 }
 
-span.pc .toggle:hover {
+span.pc .toggle, #restPageTitle .icon:hover {
     background-image: none;
     padding-top: -5px;
     padding-bottom: 1px;
