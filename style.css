@@ -2,6 +2,11 @@ a, a:hover {
     color: #0070e0;
 }
 
+#restPageTitle {
+    font-size:14px;
+    font-weight:700;
+}
+
 body, .tableCaption a.buildTypeName, .projectHeaderTable a, .projectHeaderTable a:hover, .projectHeaderTable a:visited {
     color: #1b2733;
 }
