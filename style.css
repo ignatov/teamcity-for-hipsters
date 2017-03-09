@@ -12,6 +12,18 @@ body, .tableCaption a.buildTypeName, .projectHeaderTable a, .projectHeaderTable 
     /*font-weight:200;*/
 }
 
+table.modificationBuilds tr.buildTypeProblem {
+    border:none;
+}
+
+table.modificationBuilds tr td.status {
+    min-width: 250px;
+}
+
+.buildChainBuild .progress_holder .progress {
+    height: 20px;
+}
+
 .package {
     font-weight: inherit !important;
     font-family: inherit !important;
@@ -19,6 +31,10 @@ body, .tableCaption a.buildTypeName, .projectHeaderTable a, .projectHeaderTable 
 
 span.none, .feed-links, .divsWithHeaders h2, .icon.buildDataIcon {
     display: none;
+}
+
+table.modificationBuilds tr td.status > .icon.buildDataIcon {
+    display: inline-block !important;
 }
 
 span[class*="build-status-icon_personal"] + * + * a {
