@@ -24,6 +24,10 @@ table.modificationBuilds tr td.status {
     height: 20px;
 }
 
+table.overviewTypeTable td.compositeBuild {
+    font-style: normal;
+}
+
 .package {
     font-weight: inherit !important;
     font-family: inherit !important;
@@ -160,8 +164,8 @@ table.overviewTypeTable td.buildNumber {
 }
 
 .build > .projectHeader {
-    background: #F9FAFB;
-    /*background: white;*/
+/*    background: #F9FAFB;*/
+    background: white;
 }
 
 .progress {
@@ -187,6 +191,12 @@ table.overviewTypeTable td.buildNumber {
 .progressInner {
     height: 1px;
     margin-top: 20px;
+}
+
+.buildChainBuild .progress_holder .progress, .buildChainBuild .progress_holder .progressInner {
+   /* display: inline-block;
+    height: 1.3em;
+    max-width: 100%;*/
 }
 
 .tableCaption table.runTable td.runningStatus {
