@@ -163,9 +163,12 @@ table.overviewTypeTable td.buildNumber {
     border: none;
 }
 
-.build > .projectHeader {
-/*    background: #F9FAFB;*/
-    background: white;
+.projectHeader {
+    background: white !important;
+}
+
+.projectHeader :hover {
+    background-color: #FFFFe9;
 }
 
 .progress {
